@@ -1,0 +1,23 @@
+def calculator_switch():
+    calculation = input("Enter which calculation you want to perform. \n \
+    A - Square\n \
+    B - Triangle\n \
+    C - Circle\n \
+    D - Distance\n \
+    E - Midpoint\n")
+   
+    match calculation:
+        case "A":
+            print("You entered A for Square.")
+        case "B":
+            print("You entered B for Triangle.")
+        case "C":
+            print("You entered C for Circle.")
+        case "D":
+            print("You entered D for Distance.")
+        case "E":
+            print("You entered E for Midpoint.")
+        case _:
+            print("Invalid entry. Restart program amd enter a valid input.")
+   
+calculator_switch()
